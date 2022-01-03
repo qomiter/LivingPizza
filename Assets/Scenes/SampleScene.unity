@@ -1140,7 +1140,7 @@ GameObject:
   - component: {fileID: 2048170825}
   - component: {fileID: 2048170824}
   m_Layer: 0
-  m_Name: BlackThornProdGameBackground
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
