@@ -17,7 +17,8 @@ public class MeleeEnemy : Enemy
             if(Vector2.Distance(transform.position, player.position) > stopDistance)
             {
                 transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-            }else
+            }
+            else
             {
                 if(Time.time >= attackTime)
                 {
