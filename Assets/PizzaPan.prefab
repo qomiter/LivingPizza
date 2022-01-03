@@ -98,4 +98,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  lifeTime: 5
+  lifeTime: 0.5
+  explosion: {fileID: 5555750210389712984, guid: 9490cc6469c6820419e32327dbfa86b4, type: 3}
