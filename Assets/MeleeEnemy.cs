@@ -39,7 +39,7 @@ public class MeleeEnemy : Enemy
         while(percent <= 1)
         {
             percent += Time.deltaTime * attackSpeed;
-            float formula = (-Mathf.Pow(percent, 2) * 4);
+            float formula = (-Mathf.Pow(percent, 2) + percent) * 4;
             transform.position = Vector2.Lerp(originalPosition, targetPosition, formula);
             yield return null;
         }

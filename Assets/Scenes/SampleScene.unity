@@ -611,14 +611,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -6835644727366673259, guid: 940ed7f69a22dac4093cbcfa19a3eb42, type: 3}
-      propertyPath: attackSpeed
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: -6835644727366673259, guid: 940ed7f69a22dac4093cbcfa19a3eb42, type: 3}
-      propertyPath: stopDistance
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 8053947342168919232, guid: 940ed7f69a22dac4093cbcfa19a3eb42, type: 3}
       propertyPath: m_Name
       value: PizzaCutter
