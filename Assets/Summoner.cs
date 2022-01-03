@@ -54,9 +54,10 @@ public class Summoner : Enemy
             if (Vector2.Distance(transform.position, player.position) < stopDistance)
             {
                 if (Time.time >= attackTime)
-                {
-                    StartCoroutine(Attack());
+                { 
                     attackTime = Time.time + timeBetweenAttacks;
+                    StartCoroutine(Attack());
+                    
                 }
             }
         }
