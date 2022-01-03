@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8053947341643012082}
   - component: {fileID: 8053947341643012083}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 8881865251202893129}
   - component: {fileID: 9068371255052982969}
   - component: {fileID: -6835644727366673259}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PizzaCutter
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8053947342168919232}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 231e82d1a39678e4198136ac57c5d463, type: 2}
   m_CullingMode: 0
@@ -254,5 +254,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 3
   player: {fileID: 0}
-  speed: 20
-  stopDistance: 1
+  speed: 10
+  timeBetweenAttacks: 3
+  damage: 1
+  stopDistance: 5
+  attackSpeed: 8

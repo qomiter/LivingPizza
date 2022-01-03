@@ -11,6 +11,8 @@ public class Enemy : MonoBehaviour
 
     public float speed;
 
+    public float timeBetweenAttacks;
+    public int damage;
 
 
     public void TakeDamage(int damageAmount)
